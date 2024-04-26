@@ -126,6 +126,7 @@ p {
   margin-right: 40px;
   margin-top: 20px;
   margin-left: 40px;
+  margin-bottom: 40px;
 }
 .child4_image {
   border: 1px solid gray;
@@ -157,3 +158,13 @@ a {
   margin-top: 12px;
   font-weight: bold;
 }
+
+/* SECTION 5 */
+/* 
+.top_feedback {
+  border: 1px solid gray;
+  height: 150px;
+  width: 340px;
+  margin-left: 35px;
+  margin-top: 40px;
+} */

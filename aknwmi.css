@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid .5px rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav img{
+    width: 20px;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.ngn{
+    display: flex;
+    align-items: center;
+    border-right: solid .5px rgba(0, 0, 0, 0.4);
+    padding-right: 10px;
+}
+
+.uk{
+    display: flex;
+    align-items: center;
+}
+
+.second-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav2-sec1, .nav2-sec3{
+    display: flex;
+    gap: 20px;
+    align-content: center;
+}
+
+.nav2-sec1 img{
+    width: 20px;
+}
+
+.nav2-sec2 img{
+    width: 200px;
+}
+
+.nav2-sec3 img{
+    width: 20px;
+}
+
+.third-nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.third-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.third-nav a:hover{
+    color: #fd4441;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px 20px 20px;
+    background-color: black;
+}
+
+.ft-top{
+    display: flex;
+    border-bottom: solid .5px rgba(255, 255, 255, 0.7);
+    gap: 100px;
+}
+
+.ft-sec1{
+    display: flex;
+    flex-direction: column;
+}
+.ft-sec1 h3{
+    color: white;
+    font-size: 14px;
+}
+.ft-sec1 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.ft-sec1 a:hover{
+    color: #fd4441;
+}
+.ft-sec1 p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+hr{
+    width: 20px;
+    height: 2px;
+    color: white;
+    margin: 10px 0 40px 0;
+}
+
+.ft-img-box{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.ft-bottom p{
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.ftinput{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.ftinput input{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.7);
+    border: none;
+    padding: 0 10px;
+}
+.ftinput button{
+    background-color: #fd4441;
+    border: none;
+    padding: 20px 40px;
+    height: 60px;
+}
